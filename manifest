@@ -1,0 +1,6 @@
+# kdot manifest - do not edit manually
+# format: <original_path> -> <repo_path>
+
+/home/kayz/.config/fish -> /home/kayz/.dotfiles/.config/fish
+/home/kayz/.config/ghostty/config -> /home/kayz/.dotfiles/.config/ghostty/config
+/home/kayz/.config/nvim -> /home/kayz/.dotfiles/.config/nvim

@@ -1,0 +1,12 @@
+theme = Catppuccin Mocha
+
+font-size = 12
+font-family = Google Sans Code
+font-thicken = true
+font-feature = -liga
+
+window-padding-x = 10
+window-padding-y = 10
+
+cursor-style = bar
+cursor-style-blink = true
