@@ -5,4 +5,5 @@
 /home/kayz/.config/ghostty/config -> /home/kayz/.dotfiles/.config/ghostty/config
 /home/kayz/.config/nvim -> /home/kayz/.dotfiles/.config/nvim
 /home/kayz/.config/starship.toml -> /home/kayz/.dotfiles/.config/starship.toml
+/home/kayz/.config/zellij -> /home/kayz/.dotfiles/.config/zellij
 /home/kayz/.dotfiles/.config/nvim -> /home/kayz/.dotfiles/.dotfiles/.config/nvim
