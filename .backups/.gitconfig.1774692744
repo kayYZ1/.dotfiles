@@ -1,0 +1,11 @@
+[user]
+	name = kayYZ1
+	email = overek7133@gmail.com
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+[credential]
+	helper = store
+[core]
+	editor = nvim
