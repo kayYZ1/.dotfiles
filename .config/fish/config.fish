@@ -27,3 +27,11 @@ set --export PATH $HOME/Code/depot_tools $PATH
 
 # Added by the Hunk installer (https://hunk.dev)
 fish_add_path '/home/kayz/.hunk/bin'
+
+# aliases: modern command replacements
+if status is-interactive
+    alias ls='eza'
+    alias cat='bat'
+    alias grep='rg'
+    alias find='fd'
+end
