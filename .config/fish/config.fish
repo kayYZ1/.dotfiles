@@ -14,3 +14,16 @@ set --export PATH $BUN_INSTALL/bin $PATH
 
 # amp
 fish_add_path ~/.local/bin
+
+# pnpm
+set -gx PNPM_HOME "/home/kayz/.local/share/pnpm"
+if not string match -q -- "$PNPM_HOME/bin" $PATH
+    set -gx PATH "$PNPM_HOME/bin" $PATH
+end
+# pnpm end
+
+# depot_tools
+set --export PATH $HOME/Code/depot_tools $PATH
+
+# Added by the Hunk installer (https://hunk.dev)
+fish_add_path '/home/kayz/.hunk/bin'
